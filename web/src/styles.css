@@ -1,0 +1,14 @@
+:root { font-family: Inter, system-ui, sans-serif; }
+body { margin: 0; background: #f5f7fb; color: #1a2333; }
+main { max-width: 980px; margin: 20px auto; padding: 0 16px; }
+.panel { background: white; border-radius: 10px; padding: 16px; margin: 12px 0; box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 12px; }
+label { display:flex; flex-direction:column; gap:4px; font-size:14px; }
+input { border:1px solid #d9dfea; border-radius:8px; padding:8px; }
+.actions { display:flex; gap:8px; align-items:center; }
+button { border:none; background:#2667ff; color:#fff; border-radius:8px; padding:9px 12px; cursor:pointer; }
+button:disabled { opacity:.5; cursor:not-allowed; }
+.error { color:#c62828; }
+table { width:100%; border-collapse:collapse; font-size:14px; }
+th,td { border-bottom:1px solid #e9eef7; padding:8px; text-align:left; }
+.checkbox { flex-direction:row; align-items:center; gap:8px; }
